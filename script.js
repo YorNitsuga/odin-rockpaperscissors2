@@ -12,3 +12,18 @@ function getComputerChoice() {
 }
 
 console.log(getComputerChoice())
+
+let humanChoice = prompt("Choose between: rock, paper, scissors");
+
+function getHumanChoice() {
+
+    if (humanChoice === "rock") {
+        return "rock";
+    } else if (humanChoice === "paper") {
+        return "paper";
+    } else if (humanChoice === "scissors") {
+        return "scissors";
+    }
+}
+
+console.log(getHumanChoice());
