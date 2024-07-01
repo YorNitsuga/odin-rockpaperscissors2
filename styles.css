@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #222831;
 }
 
 header {
@@ -15,4 +16,33 @@ header h1 {
     font-size: 32px;
     color: #fac650;
     font-family: 'Press Start 2P', cursive;
+    background-color: #111720;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main div {
+    display: flex;
+    gap: 40px;
+}
+
+input {
+    color: blanchedalmond;
+    padding: 40px;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+#result {
+    color: white;
+    text-align: center;
+    font-size: 45px;
 }
