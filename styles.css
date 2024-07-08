@@ -36,9 +36,11 @@ input {
     color: blanchedalmond;
     padding: 40px;
     width: 200px;
-    height: 150px;
+    height: 180px;
     border-radius: 50%;
     font-size: 30px;
+    cursor: pointer;
+    font-size: 50px;
 }
 
 #result {
